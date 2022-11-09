@@ -1,0 +1,11 @@
+       
+# stat_list = stat_message.split("\n")
+# strip1=stat_list[0]
+# stat_list = strip1.split("-")
+# total_time=stat_list[1]
+#is this the line causing the error?????? @android??
+#oh...yeah i saw that..is it possible tho?oo..nice
+#Nah, the error was cause the message converter thing is asynchronous, and __init__ is synchronous. I tried to bypass it using asyncio but that shit is too hard for me :pepecries:. In theory, yes, but in practice, idk how
+            
+# yes....the basic one is simpler, and imo easier to debug
+#ight, time to use the naive method, I can't deal with this asyncio shit
